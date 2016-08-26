@@ -81,6 +81,8 @@
 		border-radius: 100%;
 		padding: 1.7% 2%;
 		margin:2.5%;
+		position: absolute;
+		right:90%;
 }
 
 
@@ -127,7 +129,15 @@
 .paddd{
 	padding: 1% 8%;
 }
-
+.post{
+	top:5%;
+}
+.post1{
+	top:40%;
+}
+.post2{
+	top:80%;
+}
 
 #fond{
 	width: 100%;
