@@ -8,181 +8,261 @@
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/utilities.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<!--Escribe aqui tu codigo-->
-	<header><!-- inicia mi página TIMEBEACH-->
-	  <div class="container banner background-img-responsive"> <!-- banner responsive--> 
-	    <div class="row">
-	      <div class="col-lg-12 col-xs-12">
-	      	<nav class="navbar navbar-fixed-top paddd colorff"><!-- inicia mi navegador que en lg esta en una barra y en xs esta en hamburguesa--> 
-						<div class="navbar-header">
-						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-					    <span class="sr-only">Menu</span>
-					    <span class="fa fa-navicon fa-2x"></span> <!-- icono de hamburguesa--> 
-					    </button>
-					    <img src="image/user-r.png">
+		<header class="banner background-img-responsive"><!-- inicia mi página TIMEBEACH-->
+		  <div class="fond"> <!-- banner responsive--> 
+		  	<div class="container">
+			    <div class="row">
+			      <div class="col-lg-12 col-xs-12">
+			      	<nav class="navbar paddd colorff"><!-- inicia mi navegador que en lg esta en una barra y en xs esta en hamburguesa--> 
+								<div class="navbar-header">
+								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+							    <span class="sr-only">Menu</span>
+							    <span class="fa fa-navicon fa-2x"></span> <!-- icono de hamburguesa--> 
+							    </button>
+							    <img src="image/user-r.png"><!-- imagen logo-->
+								</div>
+								<div class="collapse navbar-collapse " id="myNavbar">
+								  <ul class="nav navbar-nav navbar-right "><!-- elementos de mi navegador--> 
+										<li><a class="txtrosa colorf" href="#queofrece">¿Qué me ofrece?</a></li>
+										<li><a class="txtrosa colorf" href="#comofunciona">¿Cómo funciona?</a></li>
+										<li><a class="txtrosa colorf" href="#porqueusarlo">¿Por qué usarlo?</a></li>
+										<li><a class="txtrosa colorf" href="contact.html">Contactanos</a></li>
+			  					</ul>	
+								</div>
+							</nav><!-- finaliza NAV -->
 						</div>
-							<div class="collapse navbar-collapse " id="myNavbar">
-						    <ul class="nav navbar-nav navbar-right "><!-- elementos de mi navegador--> 
-									<li><a class="txtrosa colorf" href="#">¿Qué me ofrece?</a></li>
-									<li><a class="txtrosa colorf" href="#">¿Cómo funciona?</a></li>
-									<li><a class="txtrosa colorf" href="#">¿Por qué usarlo?</a></li>
-									<li><a class="txtrosa colorf" href="#">Contactanos</a></li>
-	  						</ul>	
+					</div><!-- finaliza ROW -->
+					<div class="row">
+						<div class="col-lg-12 col-xs-12">
+							<div class="txtgrand txtblanco"><!-- class que le indica al texto que sea de cierto tamaño y de color blanco-->
+								<p class="text-center" id="marggheader">Obtén videos de personas reales <br> utilizando tu sitio web en 1 hora</p><!-- texto arriba del bg--> 
 							</div>
-						</nav>
+						</div>
 					</div>
-				</div><!-- finaliza ROW -->
+				</div>
+				<div class="container-fluid">
+					<div class="row cazul">
+						<div class="col-lg-6 col-xs-6 text-right">
+							<p class="paddd colorbl">PRUEBA GRATUITA</p><!--texto de lado izq-->
+							<p class="paddd colorbl">Obtén un vide gratis de 5 minutos</p><!--texto de lado izq-->
+						</div>
+						<div class="col-lg-6 col-xs-6">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#miventana">Pruebalo gratis</button>	<!--boton que mandara un modal-->
+								<div id="miventana" class="modal fade" role="dialog"><!-- deterino el mismo id de mi boton para que tenga relación, indico que es una clase modal fade y que es un role de dialogo-->
+									<div class="modal-dialog" role="document">
+										<div class="modal-content"><!--contenido de modal-->
+											<div class="modal-header"><!--cabeza de modal-->
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h3 class="modal-title">Hola, lee las instrucciones</h3><!--boton de cierre dentro del modal-->
+											</div>
+											<div class="modal-body"><!--cuerpo del modal-->
+												<h2>¡FELICIDADES!</h2>
+												<p>Mandanos tu correo electrónico, en la parte de contactanos y con la clave MELOGANE te mandaremos lo datos para que puedas adquirir una prueba</p>
+											</div>
+											<div class="modal-footer"><!--pies del modal-->
+												<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button><!--boton cerrar-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header><!--cierre de header-->
+		<section><a name="queofrece"></a><!--primera sección de los 3 circulos-->
+			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-xs-12">
-						<div class="txtgrand txtblanco">
-							<p class="text-center" id="marggheader">Obtén videos de personas reales <br> utilizando tu sitio web en 1 hora</p><!-- texto arriba del bg--> 
+						<h3 class="colorazul text-center"> Nuestros servicios</h3>
+					</div>
+				</div>
+				<div class="row padd">
+					<div class="col-lg-4 col-xs-12 margg">
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 circbl grow"><!--indico las caracteristcas del circulo y el efecto-->
+								<span class="icon-video"></span> <!--icono del video-->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 margg1 text-center"><!--texto con caracteristicas de margen, centrado y color-->
+								<p class="colorazul ">Prueba <br> gratis</p>
+								<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
+							</div>	
+						</div>
+					</div>
+					<div class="col-lg-4 col-xs-12 margg">
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 circbl grow"><!--indico las caracteristcas del circulo y el efecto-->
+								<span class="icon-clock"></span><!--icono del reloj-->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 margg1 text-center"><!--texto con caracteristicas de margen, centrado y color-->
+								<p class="colorazul">Prueba <br> gratis</p>
+								<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
+							</div>	
+						</div>
+					</div>
+					<div class="col-lg-4 col-xs-12 margg">
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 circbl grow"><!--indico las caracteristcas del circulo y el efecto-->
+								<span class="icon-documents"></span><!--icono de documento-->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-xs-12 margg1 text-center"><!--texto con caracteristicas de margen, centrado y color-->
+								<p class="colorazul ">Prueba <br> gratis</p>
+								<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
+							</div>	
 						</div>
 					</div>
 				</div>
+			</div><!--cierre de container-->
+		</section>
+		<div class="clearfix visible-xs-block"></div> <!--le indico que me baje el siguiente elemento que quiero que sea block-->
+		<section><a name="comofunciona"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-xs-12">
+						<hr id="lineanar"/>
+						<img class="subir" src="image/separador.png"> <!--imagen flecha hacia abajo (separador)-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xs-12">
+						<p class="text-center">Ejemplo de <img class="tamañopeq" src="image/logo-2.jpg"></p><!--texto con imagen-->
+						<p>En este video te damos un ejemplo de in integrante de nuestropanel evaluado <br> la experiencia se usa</p>
+						<a href="#">mimediamanzana.com</a>
+						<p>El objetivo de User Testing 360 es identificar situaciones confusas de los <br> usuarios en su web y describir soluciones, que garanticen una experiencia de <br> uso satisfactorio.</p>
+						<img class="animated slideInLeft padd hidden-xs" src="image/flecha.png"><!--imagen con efecto (flecha)-->
+					</div>
+					<div class="col-lg-6 col-xs-12">
+						<iframe src="https://www.youtube.com/embed/7ZCfqof8DV4" frameborder="0" allowfullscreen></iframe> <!--video-->
+					</div>	
+				</div>
+			</div>
+		</section><!--abre sección-->
+		<section ><!--sección donde coloqué los iconos en el centro-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xs-12 altura">
+						<hr id="lineanar"/>
+						<img class="tamñcm" src="image/sec-2.jpg">
+					</div>
+					<div class="clearfix visible-xs-block"></div>
+					<div class="row">
+						<div class="col-lg-6 col-xs-12 grow">
+							<span class="icon-pencil redes post"></span><!--icono lapiz-->
+							<span class="icon-tools redes post1"></span><!--icono herramientas-->
+							<span class="icon-search redes post2"></span><!--icono buscar-->
+							<div class="paddd">
+								<p>Lo que quiero ¿Qué hago?</p>
+								<p>Paso 1: envianos tu link</p>
+								<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde <br> enviaremos el video y el informe con el feedback</p>
+								<br>
+								<p>Paso 2: describe a tu pblico objetivo</p>
+								<p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+									<ul>
+										<li>A primera vista de ¿Qué crees que trata la página?</li>
+										<li>Busca el botón de incribete o comprar</li>
+										<li>¿Es fácil o dificil leer los textos</li>
+									</ul>
+								<br>
+								<p>Paso 3: recibe un video y el feedback completo</p>
+								<p>Recibe un combo de 7 videos y un informe detallado con las capacitaciones de usablidad de tu producto</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--cierra sección-->
+		<section><!--abre sección-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-xs-12">
+						<hr id="lineanar"/>
+						<img class="subir"src="image/separador.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section> <a name="porqueusarlo">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-xs-12 paddd">
+						<p class="text-center">Por qué usar <img class="tamañopeq" src="image/logo-2.jpg"></p>
+						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio<br> para llegar a millones de personas en segundos pero ¿qué pasa si el producto <br> digital que ofreces no es bueno o no se entiende? Pierdes esta enorme <br> oportunidad. Con <a href="#">User Testing 360</a> , puedes entender la experiencia que uso de <br> tu página o producto digital y mejorarla para que satisgafa todas las necesidades <br> de tus usuarios. Con <a href="#">User Testing 360</a> podrás entender:</p>
+						<ul>
+							<li>¿Cómo tu publico objetivo verdaderamente usa tu producto?</li>
+							<li>¿Que se hace fáciñ o difícil al navegar en tu producto</li>
+							<li>¿Qué es lo que tu publico quiere hacer y tal vez no obtiene o consigue?</li>
+						</ul>
+						<p><a href="#">"User Testing 360"</a> te ayudará a responder estas preguntas y muchas más. Es el <br> toque final perfecto para tu página o producto digital.</p>
+					</div>
+					<div class="col-lg-6 col-xs-12 ">
+						<img class="tamñcm" src="image/banner.jpg"><!--imagen-->
+					</div>
+				</div>
+			</div>
+		</section><!--cierra sección-->
+		<section><!--abre sección-->
+			<div class="container-fluid">
 				<div class="row cazul">
 					<div class="col-lg-6 col-xs-6 text-right">
-						<p >PRUEBA GRATUITA</p>
-						<p>Obtén un vide gratis de 5 minutos</p>
+						<p class="paddd colorbl">PRUEBA GRATUITA</p><!--texto de lado izq-->
+						<p class="paddd colorbl">Obtén un vide gratis de 5 minutos</p> <!--  -->
 					</div>
 					<div class="col-lg-6 col-xs-6">
-						<button type="button" class="btn btn-default marg hidden-xs">Pruebalo gratis</button>	
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#miventana">Pruebalo gratis</button>	<!--boton que mandara un modal-->
+							<div id="miventana" class="modal fade" role="dialog">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h3 class="modal-title">Hola, lee las instrucciones</h3>
+										</div>
+										<div class="modal-body">
+											<h2>¡FELICIDADES!</h2>
+											<p>Mandanos tu correo electrónico, en la parte de contactanos y con la clave MELOGANE te mandaremos lo datos para que puedas adquirir una prueba</p>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+										</div>
+									</div>
+								</div>
+							</div>
 					</div>
 				</div>
 			</div>
-		</header>
-		<section>
-			<div class="row padd">
-				<div class="col-lg-4 col-xs-12 margg">
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 circbl">
-							<span class="icon-video"></span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 margg1 text-center">
-							<p class="colorazul ">Pruebla <br> gratis</p>
-							<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
-						</div>	
-					</div>
-				</div>
-				<div class="col-lg-4 col-xs-12 margg">
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 circbl">
-							<span class="icon-clock"></span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 margg1 text-center">
-							<p class="colorazul">Prueba <br> gratis</p>
-							<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
-						</div>	
-					</div>
-				</div>
-				<div class="col-lg-4 col-xs-12 margg">
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 circbl">
-							<span class="icon-documents"></span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12 col-xs-12 margg1 text-center">
-							<p class="colorazul ">Prueba <br> gratis</p>
-							<p> Obtén un primer vide screencast de un <br> usuario navegando tu página.</p>
-						</div>	
-					</div>
-			</div>
-		</section>
-		<section>
-			<div class="row">
-				<div class="col-lg-12 col-xs-12">
-					<hr id="lineanar"/>
-					<img class="subir" src="image/separador.png">
-				</div>
-			</div>
-		</section>
-		<section class="hidden-xs">
-			<div class="row">
-				<div class="col-lg-6 col-xs-6">
-					<p class="text-center">Ejemple de <img class="tamañopeq" src="image/logo-2.jpg"></p>
-					<p>TEXTO</p>
-					<a href="#">LINK</a>
-					<p>TEXTO</p>
-					<img class="text-center" src="mage/flecha.png">
-				</div>
-				<div class="col-lg-6 col-xs-6">
-					<iframe src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
-				</div>	
-			</div>
-		</section>
-		<section class="hidden-xs">
-			<div class="row">
-				<div class="col-lg-6 col-xs-4 altura">
-					<img class="tamñcm" src="image/sec-2.jpg">
-				</div>
+		</section><!--cierra sección-->
+		<footer><!--pies que contiene dirección y redes sociales-->
+			<div class="container-fluid colorazf paddd">
 				<div class="row">
-					<div class="col-lg-6 col-xs-3">
-						<span class="icon-pencil redes post"></span>
-						<span class="icon-pencil redes post1"></span>
-						<span class="icon-pencil redes post2"></span>
-						<p>Lo que quiero ¿Qué hago?</p>
-						<p>Paso 1: envianos tu link</p>
-						<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde <br> enviaremos el video y el informe con el feedback</p>
-						<br>
-						<p>Paso 2: describe a tu pblico objetivo</p>
-						<p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
-							<ul>
-								<li>A primera vista de ¿Qué crees que trata la página?</li>
-								<li>Busca el botón de incribete o comprar</li>
-								<li>¿Es fácil o dificil leer los textos</li>
-							</ul>
-						<br>
-						<p>Paso 3: recibe un video y el feedback completo</p>
-						<p>Recibe un combo de 7 videos y un informe detallado con las capacitaciones de usablidad de tu producto</p>
+					<div class="col-lg-10 col-xs-8">
+						<p class="colorbl">Escribenos a:</p>
+						<a href="#">experienciadeusuario.lab@gmail.com</a>
+						<p class="colorbl">telefonos:989637925</p>
 					</div>
-				</div>
-			</section>
-		<section class="hidden-xs">
-			<div class="row">
-				<div class="col-lg-12 col-xs-12">
-					<hr id="lineanar"/>
-					<img class="subir"src="image/separador.png">
-				</div>
-			</div>
-		</section>
-		<section>
-			<div class="row">
-				<div class="col-lg-6 col-xs-6">
-					<p class="text-center">Por qué usar <img class="tamañopeq" src="image/logo-2.jpg"></p>
-					<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio<br> para llegar a millones de personas en segundos pero ¿qué pasa si el producto <br> digital que ofreces no es bueno o no se entiende? Pierdes esta enorme <br> oportunidad. Con <a href="#">User Testing 360</a> , puedes entender la experiencia que uso de <br> tu página o producto digital y mejorarla para que satisgafa todas las necesidades <br> de tus usuarios. Con <a href="#">User Testing 360</a> podrás entender:</p>
-					<ul>
-						<li>¿Cómo tu publico objetivo verdaderamente usa tu producto?</li>
-						<li>¿Que se hace fáciñ o difícil al navegar en tu producto</li>
-						<li>¿Qué es lo que tu publico quiere hacer y tal vez no obtiene o consigue?</li>
-					</ul>
-					<p><a href="#">"User Testing 360"</a> te ayudará a responder estas preguntas y muchas más. Es el <br> toque final perfecto para tu página o producto digital.</p>
-				</div>
-				<div class="col-lg-6 col-xs-6 ">
-					<img class="tamñcm" src="image/banner.jpg">
-				</div>
-			</div>
-		</section>
-		<footer>
-			<div class="row">
-				<div class="col-lg-12 col-xs-12 colorazf">
-					<p>Escribenos a:</p>
-					<a href="#">experienciadeusuario.lab@gmail.com</a>
-					<p>telefonos:989637925</p>
+					<div class="col-lg-2 col-xs-4">
+						<span class="icon-facebook" id="tami"></span>
+						<span class="icon-twitter" id="tami"></span>
+						<p>Copyrigth © 2015 - User Testing360</p>
+					</div>
 				</div>
 			</div>
 		</footer>
-		<script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html> 

@@ -1,0 +1,26 @@
+.banner{
+ 	background-image: url("../image/large.jpg");
+ 	background-size: 200%;
+ 	height: 100%;
+ }
+ 
+
+ @media screen and (max-width: 600px){
+ 	.padd{
+ 		margin: 20% auto;
+ 		padding: 40px;
+ 	}
+ }
+ @media screen and (min-width: 920px){
+ 	.padd{
+ 		margin: 10% auto;
+ }
+
+ }
+
+ form{
+ 	width: 50%;
+ 	background-color: gray;
+ 	padding: 5%;
+ }
+
